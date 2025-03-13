@@ -1,6 +1,6 @@
 # BPMN Elements
 
-The BPMN Elements asset package is designed to help visualize Business Process Model and Notation (BPMN) diagrams in 3D.
+The BPMN Elements asset package for Unity is designed to help visualize Business Process Model and Notation (BPMN) diagrams in 3D.
 
 This package includes prefabs that represent BPMN elements such as tasks, events, and gateways. It also contains a flow prefab with a script to connect elements at runtime.
 
