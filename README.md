@@ -36,12 +36,7 @@ BPMN elements/
 │   │   ├── FaceCamera.cs
 │   │   ├── LabelPositioning.cs
 │   │   ├── LineCreation.cs
-├── Flow.prefab
-├── EndEvent Variant.prefab
-├── Parallel Variant.prefab
-├── StartEvent Variant.prefab
-├── Task Variant.prefab
-├── Xor Variant.prefab
+├── Prefabs: variants of ModelElement.prefab (EndEvent, Parallel, StartEvent, Task, Xor)
 ├── Sample/
 │   ├── SampleBPMN.unity (Example scene)
 ├── README.md
