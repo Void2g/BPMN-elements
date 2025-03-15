@@ -14,9 +14,6 @@ It is important to note that this package only contains the visualization of BPM
 3. [Flow Setup](#flow-setup)
 4. [AR/VR Integration](#arvr-integration)
 5. [Scripts](#scripts)
-    - [LineCreation](#linecreation)
-    - [LabelPositioning](#labelpositioning)
-    - [FaceCamera](#facecamera)
 6. [Sample Scene](#sample-scene)
 
 ## Project Structure
@@ -62,23 +59,11 @@ New variants can be created from the **ModelElement.prefab** or existing variant
 
 ## Scripts
 
-The included scripts are needed for the prefabs to work correctly. They are not meant to be used on their own.
-
 ### LineCreation
 **Description:**
 - Creates a line between two BPMN elements.
 - Uses markers of the Element Prefabs to determine the optimal connection points.
 - Positions the arrowhead at the end and places a label in the middle.
-
-### LabelPositioning
-**Description:**
-- Ensures that BPMN labels face the camera.
-- Moves the label to the top or bottom of the BPMN element based on the camera's position.
-
-### FaceCamera
-**Description:**
-- Rotates the GameObject to always face the camera.
-- Can be used for billboards and floating labels.
 
 ## Sample Scene
 - The **SampleBPMN.unity** scene provides an example setup of BPMN elements with flow connections.
